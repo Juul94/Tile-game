@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<title>Canvas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+	
+	<div class="container2">
+		
+		<!-- Canvas = Lærred -->
+		<canvas id="canvas" width="500" height="500"></canvas>
+		
+	</div><!-- container2 -->
+	
+	<!-- Modal - When the game is completed -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+		<div class="modal-dialog" role="document">
+
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">GAME COMPLETED!</h5>
+				</div><!-- modal-header -->
+
+				<div class="modal-body">
+					
+					<img src="win-img.png" alt="Victory Royale" id="win_img">
+					Congrats. You've now completed the game. Well done.
+					
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" id="restart_game" class="btn btn-primary">Restart Game</button>
+				</div><!-- modal-footer -->
+
+			</div><!-- modal-content -->
+
+		</div><!-- modal-dialog -->
+
+	</div><!-- modal fade -->
+	
+	<script src="main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
